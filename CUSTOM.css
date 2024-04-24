@@ -1,0 +1,49 @@
+/**
+ * @name Custom theme
+ * @author meeee
+ * @version 0.0.69
+ * @source https://github.com/B4T3S/Fallout4TerminalTheme
+ * @description A theme by meeeee :3
+ * @authorId 137259132305539072
+ * @invite 6qd3SkP6Ch
+*/
+
+@import url('https://B4T3S.github.io/Fallout4TerminalTheme/mainRewrite.css');
+/* ^ This is the main Import ^ DO NOT TOUCH. Without this, the theme won't load!!! */
+
+@import url('https://B4T3S.github.io/Fallout4TerminalTheme/css/crtEffect.css'); 
+  /* ^ This is the CRT vfx. To remove, delete this line! ^ */
+
+  /* CUSTOMIZE COLORS IN HERE! */
+:root {
+  --rgb-highlight: 255, 255, 255;  
+     /* The main highlight color */
+  --rgb-background: 113, 153, 227;  
+     /* The main background color */
+  --rgb-text: 83, 154, 255*; 
+     /* The color (almost) all text should use */
+  --rgb-close-button: 33, 44, 63;  
+     /* The main "close this" or "deny" color */
+  --rgb-online-color: 57, 240, 203;  
+  --rgb-afk-color: 0, 0, 0;  
+     /* The color used in the "idle" user status symbol */
+  --rgb-dnd-color: 255, 255, 0;  
+     /* The color used in the "DnD" user status symbol */
+  --rgb-streaming-color: 188, 19, 254;  
+     /* The color used for "streaming" user status symbol */
+
+  --transition-time: 0.3s;  
+     /* Speed of theme animations. Default:0.3sec */
+
+  --background-image: url(https://pbs.twimg.com/media/GGIh4HNbYAAwysD?format=jpg&name=large);
+  --background-position: center; /* Positions the background image */
+  --background-size: cover; /* Scales the background image */
+  --background-blur: 5px; /* Blurs the image which usually helps with readability of text infront of it */
+  --background-brightness: 100%; /* Changes the background images brightness */
+  
+  --title-image: URL(https://b4t3s.github.io/Fallout4TerminalTheme/svg/title.svg); /* The .svg file used for the "ROBCO Industries (TM) terminal" title */
+  --title-image-size: cover; /* Size of title image */
+  --title-image-color: var(--highlight); /* Color for title image */
+  --title-image-width: 245px; /* Width of title image */
+  --title-image-height: 14px; /* Height of title image */
+}
